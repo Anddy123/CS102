@@ -1,0 +1,128 @@
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+.container-imgs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.space-img {
+  width: 512px;
+  height:512px;
+  margin-right: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  #warning {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  table, th, td{
+    text-align: center;
+    border: 1px solid rgb(204, 204, 204);
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    color: slategrey;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+img {
+  width: 125px;
+}
+
+.profile-picture {
+  border-radius: 50%;
+  filter: saturate(0%);
+}
+
+#alonzo{
+  background: slategrey;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border-radius: 15%;
+  margin: 20px;
+}
+
+#about-page{
+  display: flex;
+  justify-content: center;
+}
